@@ -1,0 +1,40 @@
+/* pages/welcome/welcome.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#b3d4db;
+}
+
+.l-avatar{
+  margin-top : 240rpx;
+}
+
+.motto{
+  color: #666;
+  margin-top: 100rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.start-container{
+  border: 2rpx solid #405f80;
+  width: 200rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  margin-top: 200rpx;
+}
+
+.start{
+  font-size: 30rpx;
+  color: #405f80;
+  line-height: 60rpx;
+  font-family:Consolas;
+  font-weight: bold;
+}
+
+page{
+  height:100%;
+  background-color: #b3d4db;
+}

@@ -1,0 +1,10 @@
+<!--pages/welcome/welcome.wxml-->
+
+<view class="container">
+  <l-avatar class="l-avatar" placement = "bottom"
+    open-data="{{['userAvatarUrl','userNickName']}}" size="180"/>
+  <text class=".motto">HELLO,WORLD</text>
+  <view class="start-container">
+    <text class="start">START</text>
+  </view>
+</view>
